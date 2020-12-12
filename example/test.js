@@ -92,6 +92,14 @@ function customSessionHook() {
     console.log("User loggedout");
 }
 
+/**
+ * Authendication is not required for following function
+ */
+smart_api.load_instrument_list().then(() => {
+  smart_api.getInstrumentByName("VETO-BL").then((res) => {
+    console.log(res);
+  });
+});
 
 // ########################### Socket Sample Code Starts Here ###########################
 

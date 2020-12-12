@@ -1,5 +1,6 @@
 module.exports.API = {
     "root": "https://apiconnect.angelbroking.com",
+    "open": "https://margincalculator.angelbroking.com",
     "login": "https://smartapi.angelbroking.com/publisher-login",
     "debug": false,
     "timeout": 7000,
@@ -20,6 +21,7 @@ module.exports.API = {
     "get_holding": "/rest/secure/angelbroking/portfolio/v1/getHolding",
     "get_position": "/rest/secure/angelbroking/order/v1/getPosition",
     "covert_position": "/rest/secure/angelbroking/order/v1/convertPosition",
+    "get_all_instrument_list":"/OpenAPI_File/files/OpenAPIScripMaster.json"
     // "api.token": "/session/token",
     // "api.token.invalidate": "/session/token",
     // "api.token.renew": "/session/refresh_token",
