@@ -19,7 +19,7 @@ module.exports.API = {
     "get_rms": "/rest/secure/angelbroking/user/v1/getRMS",
     "get_holding": "/rest/secure/angelbroking/portfolio/v1/getHolding",
     "get_position": "/rest/secure/angelbroking/order/v1/getPosition",
-    "covert_position": "/rest/secure/angelbroking/order/v1/convertPosition",
+    "convert_position": "/rest/secure/angelbroking/order/v1/convertPosition",
     // "api.token": "/session/token",
     // "api.token.invalidate": "/session/token",
     // "api.token.renew": "/session/refresh_token",

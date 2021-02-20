@@ -71,7 +71,7 @@ smart_api.generateSession("CLIENT_CODE", "PASSWORD")
 
         // return smart_api.getPosition();
 
-        // return smart_api.covertPosition({
+        // return smart_api.convertPosition({
         //     "exchange": "NSE",
         //     "oldproducttype": "DELIVERY",
         //     "newproducttype": "MARGIN",
